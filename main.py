@@ -16,7 +16,7 @@ class FunnyWindow(QMainWindow):
         self.move_randomly()
 
         # QLabelを使用してテキストを表示
-        self.label = QLabel('YOU ARE AN IDIOT!! ☺☺☺', self)
+        self.label = QLabel('YOU ARE AN IDIOT!!!a ☺☺☺', self)
         self.label.setAlignment(Qt.AlignCenter)  # テキストを中央揃えにする
         self.label.setGeometry(10, 10, 220, 100)  # ラベルの位置とサイズを設定
 
